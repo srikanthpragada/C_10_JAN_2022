@@ -17,9 +17,9 @@ void main() {
     }
     else
     {
-      if(m2 > 80)
+       if(m2 > 80)
          printf("C");
-      else
+       else
          printf("D");
     }
 }
