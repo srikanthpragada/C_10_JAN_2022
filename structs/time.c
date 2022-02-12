@@ -6,6 +6,17 @@ struct time {
    int h,m,s;
 };
 
+typedef struct time TIME;
+
+int get_total_seconds(TIME t) {
+    return  t.h * 3600 + t.m * 60 + t.s;
+}
+
+int compare(TIME t1, TIME t2) {
+    return get_total_seconds(t1) - get_total_seconds(t2);
+}
+
+
 void print_time(struct time t)
 {
    printf("%02d:%02d:%02d\n", t.h, t.m, t.s);
