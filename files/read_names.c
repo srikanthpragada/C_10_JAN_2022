@@ -11,7 +11,7 @@ void main()
 
       if(fp == NULL)
       {
-          printf("Sorry! Could not open file. Qutting!");
+          printf("Sorry! Could not open file. Quitting!");
           exit(1);   // exit with error
       }
 
