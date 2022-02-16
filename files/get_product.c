@@ -14,10 +14,10 @@ void main()
          fp = fopen("products.dat", "rb");
          while(1)
          {
-             printf("Enter product number [-1 to stop] :");
+             printf("Enter product number [0 to stop] :");
              scanf("%d",&pno);
 
-             if(pno == -1)
+             if(pno == 0)
                 break;
 
              // Move to product with given number
